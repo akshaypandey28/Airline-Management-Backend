@@ -72,7 +72,11 @@ npx sequelize db:create
 # creates the database defined in Sequelize config file
 
 npx sequelize model:generate --name City --attributes name:String
+# generates City model(table) and also migrations file of City
 
 npx sequelize db:migrate 
 # runs all pending Sequelize migrations
+
+npx sequelize db:migrate:undo
+# undo the most recent migration
 ```
