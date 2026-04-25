@@ -1,8 +1,7 @@
 const express = require('express');
 
-const {City} = require('./models/index.js');
-const db = require('./models/index.js'); //it will fetch the db object
 const {PORT} = require('./config/serverConfig.js');
+const CityRepository = require('./repository/city-repository.js');
 
 const setUpAndStartServer = async () =>{
 
@@ -13,9 +12,6 @@ const setUpAndStartServer = async () =>{
 
     app.listen(PORT, async () => {
         console.log(`Server started at port ${PORT}`);
-        await City.create({ //this is promise that's why await
-            name: "New Delhi",
-        })
     })
 }
 
