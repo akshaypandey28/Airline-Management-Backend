@@ -86,7 +86,7 @@ const update = async (req,res) => {
 }
 const getAll = async (req,res) => {
     try {
-        const cities = await cityService.getAllCities();
+        const cities = await cityService.getAllCities(req.query); //req.query is query params in this case and req.params is object
         return res.status(200).json({
             data: cities,
             success: true,
