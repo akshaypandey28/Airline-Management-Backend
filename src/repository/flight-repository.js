@@ -68,6 +68,25 @@ class FlightRepository{
         }
     }
 
+    async updateFlights(flightId, data) {
+        try {
+            const flight = await Flights.findByPk(flightId);
+            if (!flight) {
+                throw new Error("Flight not found");
+            }
+
+            Object.keys(data).forEach(key => {
+                flight[key] = data[key];
+            });
+            
+            await flight.save();
+            return flight;
+        } catch (error) {
+            console.log("Something went wrong in the repository layer");
+            throw {error};
+        }
+    }
+
 }
 
 module.exports = FlightRepository;
