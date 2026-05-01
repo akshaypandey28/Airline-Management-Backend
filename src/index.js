@@ -18,7 +18,7 @@ const setUpAndStartServer = async () =>{
         console.log(`Server started at port ${PORT}`); 
 
         if(process.env.SYNC_DB){
-            db.sequelize.sync({alter:true}); //it will create tables in database if they are not created already and alter:true will update the tables if there is any change in model
+            db.sequelize.sync(); //it will create tables in database if they are not created already and alter:true will update the tables if there is any change in model
         }
     })
 }
