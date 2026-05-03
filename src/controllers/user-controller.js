@@ -69,5 +69,6 @@ const isAuthenticated = async (req, res) => {
 
 module.exports = {
     createUser,
-    signIn
+    signIn,
+    isAuthenticated
 }

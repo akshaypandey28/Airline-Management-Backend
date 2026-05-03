@@ -45,7 +45,7 @@ class UserService {
 
     async isAuthenticated(token) {
         try {
-            const response = this.verifyToken(token);
+            const response = this.#verifyToken(token);
             if(!response) {
                 throw {error: 'Invalid token'}
             }
