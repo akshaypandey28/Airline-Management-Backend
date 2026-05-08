@@ -6,6 +6,12 @@ A simple flight booking backend service built with Node.js, Express, Sequelize, 
 
 This service manages flight bookings and provides API endpoints for creating, reading, updating, and deleting booking records. It is designed as a backend microservice with a clear project structure, including models, controllers, services, repositories, migration files, and route definitions.
 
+## Booking Service Flow 1
+![Booking Service Flow 1](Booking-Service-Flow-1.png)
+
+## Booking Service Flow 2
+![Booking Service Flow 2](Booking-Service-Flow-2.png)
+
 ## Key Features
 
 - RESTful API design for booking management
