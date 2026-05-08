@@ -111,3 +111,6 @@ npx sequelize db:seed:all
 - The project is designed to run with MySQL using Sequelize.
 - Ensure your MySQL server is running and credentials match the config file.
 - Use the defined Sequelize commands to manage models, migrations, and seed data.
+
+## Flight Service Diagram
+![Flight Service Architecture](Flight-Service-Flow.png)
