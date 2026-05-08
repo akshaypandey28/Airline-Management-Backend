@@ -66,7 +66,11 @@ The project uses:
 
 ## Architecture & Flow
 
-![Architecture Diagram](Architecture.png)
+![Architecture Diagram 1](Architecture-Details.png)
+
+![Architecture Diagram 2](Airline-Management-Flow.png)
+
+![Architecture Diagram 3](Architecture-Diagram.png)
 
 
 The backend is designed for a typical airline flow:
