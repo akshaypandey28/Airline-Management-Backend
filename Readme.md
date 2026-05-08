@@ -12,6 +12,9 @@ This project provides:
 - Email delivery support through a dedicated email service
 - Background job scheduling for reminder notifications
 
+## Reminder Service Diagram
+![Reminder Service Architecture](Reminder-Service-Flow.png)
+
 ## Installation
 
 1. Install dependencies:
