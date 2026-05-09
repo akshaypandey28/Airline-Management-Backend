@@ -66,7 +66,7 @@ The project uses:
 
 ## Architecture & Flow
 
-![Architecture Diagram 1](Architecture-Details.png)
+![Architecture Diagram 1](Airline-Management-Architecture.png)
 
 ![Architecture Diagram 2](Airline-Management-Flow.png)
 
