@@ -10,6 +10,8 @@ Actual Repo Link from my Github
 
 [Reminder_Service](https://github.com/akshaypandey28/Reminder_Service.git)
 
+[API_Gateway](https://github.com/akshaypandey28/API-Gateway.git)
+
 ## Project Overview
 
 This repository contains the backend implementation for an Airline Management System built as a set of Node.js microservices. The architecture is modular and includes separate services for flight management, booking, authentication, and reminders.
